@@ -58,6 +58,7 @@ public class DashController : MonoBehaviour
 
     private void Update()
     {
+        // TODO: Implement directional double-tap-key system for dashing. (or maybe double-tap-space?)
         if (Input.GetKeyDown(KeyCode.E)) Dash();
 
         if (dashCooldownTimer > 0) dashCooldownTimer -= Time.deltaTime;
